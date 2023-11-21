@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>antools.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header class="header">
-      <h3 class="logo">antools.</h3>
+        <div class="container">
       <nav class="header-nav">
+        <ul class="header-title-container">
+      <li class="logo"> <img src="./img/Group 159.png" alt="" class="logo-img"> antools.</li>
+    </ul>
         <ul class="header-nav-list">
           <li class="nav-list-item">Home</li>
           <li class="nav-list-item">Categories</li>
@@ -16,81 +23,155 @@
           <li class="nav-list-item">Blog</li>
         </ul>
         <ul class="sign-list">
-          <li class="sign-list-item">Login</li>
-          <li class="sign-list-item">Sign Up</li>
+          <li class="sign-list-item-login">Login</li>
+          <li class="sign-list-item-sign-up">Sign Up</li>
         </ul>
       </nav>
-      <section class="section-hero">
-        <h3 class="section-hero-title">
-          Awesome tools for <br />
-          Designer & Developer <span>.</span>
-        </h3>
-        <p class="section-hero-text">
-          Antool is a web collection of information on paid or <br />free Design
-          and Development tools
-        </p>
-        <input type="text" placeholder="find more than 430+ tools..."  class="section-hero-input"/>
-        <button class="section-hero-btn">Search</button>
-      </section>
+    </div>
     </header>
     <body>
+      <div class="container">
+        <section class="section-hero">
+          <ul class="section-hero-list">
+            <li>
+            <h3 class="section-hero-title">
+              Awesome tools for <br/>
+              Designer & Developer<span class="hero-title-point">.</span>
+            </h3>
+            <p class="section-hero-text">
+              Antool is a web collection of information on paid or <br/>free Design
+              and Development tools
+            </p>
+          </ul>
+            <div class="hero-input-container">
+            <img src="./img/search.png" alt="">
+            <input type="text" placeholder="find more than 430+ tools..."  class="section-hero-input"/>
+            <button class="section-hero-btn">Search</button>
+          </div>
+            <ul class="section-hero-link-list">
+              <li class="section-hero-link-item"><img src="./img/bx_bxl-facebook.png" alt="" class="section-hero-img"></li>
+              <li class="section-hero-link-item"><img src="./img/bx_bxl-instagram.png" alt="" class="section-hero-img"></li>
+              <li class="section-hero-link-item"><img src="./img/bx_bxl-twitter.png" alt="" class="section-hero-img"></li>
+            </ul>
+          </section>
+        </div>
       <section class="section-tools">
-        <h3 class="tools-title">Most Popular Tools</h3>
-        <p class="tools-text">
-          Tools for the best Designers and Developers <br />
+        <div class="container">
+          <ul class="tools-title-list">
+        <li class="tools-title-item">Most Popular Tools</li>
+        <li class="tools-text-item">
+          Tools for the best Designers and Developers<br/>
           most popularly used in the world
-        </p>
+        </li>
+      </ul>
         <ul class="tools-list">
           <li class="tools-list-item">
-            <h3 class="tools-list-title">FIGMA</h3>
-            <h4 class="tools-list-cost">Free</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/grommet-icons_figma.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Figma</li> 
+              <li class="tools-list-cost">Free</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-list-item">
-            <h3 class="tools-list-title">Sketch</h3>
-            <h4 class="tools-list-cost">Trial & Paid</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/logos_sketch.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Sketch</li> 
+              <li class="tools-list-cost">Trial & Paid</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-list-item">
-            <h3 class="tools-list-title">Visual Studio Code</h3>
-            <h4 class="tools-list-cost">Free</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/logos_visual-studio-code.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Visual Studio Code</li> 
+              <li class="tools-list-cost">Free</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-list-item">
-            <h3 class="tools-list-title">Notion</h3>
-            <h4 class="tools-list-cost">Free & Paid</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/notion.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Notion</li> 
+              <li class="tools-list-cost">Free & Paid</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-list-item">
-            <h3 class="tools-list-title">Slack</h3>
-            <h4 class="tools-list-cost">Free & Paid</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/grommet-icons_slack.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Slac</li> 
+              <li class="tools-list-cost">Free & Paid</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-list-item">
-            <h3 class="tools-list-title">Invision</h3>
-            <h4 class="tools-list-cost">Free & Paid</h4>
+            <ul class="tools-list-title-container">  
+              <li><img src="./img/logos_invision-icon.png" alt="" class="tools-list-img"></li> 
+            <ul class="tools-list-tc-container">
+              <li class="tools-list-title">Invision</li> 
+              <li class="tools-list-cost">Free & Paid</li>
+            </ul>
+          </ul>
             <p class="tools-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="tools-list-btn">Visit</button>
+            <div class="tools-list-add-container">
+              <img src="./img/flat-color-icons_like.png" alt="" class="list-add-container-img">
+              <img src="./img/eva_folder-add-outline.png" alt="" class="list-add-container-img">
+              <button class="tools-list-btn">Visit</button>
+            </div>
           </li>
         </ul>
-        <button>Load more</button>
+        <div class="tools-btn-container">
+        <button class="tools-btn">Load more</button>
+      </div>
+      </div>
       </section>
       <section class="section-trusted">
         <h3 class="trusted-title">Trusted more than 150+ brand</h3>
@@ -160,27 +241,27 @@
       </section>
       <footer class="footer">
         <nav class="nav-footer">
-        <ul class="nav-footer-Copyright">
-            <li class="footer-Copyright-item"><h3 class="footer-Copyright-logo">antools.</h3></li>
-            <li class="footer-Copyright-item"><h3 class="footer-Copyright-title">Copyright 2021. Antools</h3></li>
-            <li class="footer-Copyright-item">Antool is a web collection of information on paid or free Design and Development tools</li>
+          <ul class="nav-footer-list">
+            <li class="nav-footer-Copyright-item"><h3 class="footer-Copyright-logo">antools.</h3></li>
+            <li class="nav-footer-Copyright-item"><h3 class="footer-Copyright-title">Copyright 2021. Antools</h3></li>
+            <li class="nav-footer-item">Antool is a web collection of information on paid or free Design and Development tools</li>
          </ul>
-         <ul class="nav-footer-Contact-us">
-            <li class="footer-Contact-us-item"><h3 class="footer-Contact-us-title">Contact Us</h3></li>
-            <li class="footer-Contact-us-item">+621987463</li>
-            <li class="footer-Contact-us-item">M Building, No.10 A</li>
-            <li class="footer-Contact-us-item">antools@awesome.com</li>
+         <ul class="nav-footer-list">
+            <li class="nav-footer-title">Contact Us</li>
+            <li class="nav-footer-item">+621987463</li>
+            <li class="nav-footer-item">M Building, No.10 A</li>
+            <li class="nav-footer-item">antools@awesome.com</li>
          </ul>
-         <ul class="nav-footer-Categories">
-            <li class="footer-Categories-item"><h3 class="footer-Categories-title">Categories</h3></li>
-            <li class="footer-Categories-item">Design</li>
-            <li class="footer-Categories-item">Development</li>
+         <ul class="nav-footer-list">
+            <li class="nav-footer-title">Categoies</li>
+            <li class="nav-footer-item">Design</li>
+            <li class="nav-footer-item">Development</li>
          </ul>
-         <ul class="nav-footer-Company-Info">
-            <li class="footer-Company-Info-item">Company Info</li>
-            <li class="footer-Company-Info-item">About Us</li>
-            <li class="footer-Company-Info-item">Our Partners</li>
-            <li class="footer-Company-Info-item">Blog</li>
+         <ul class="nav-footer-list">
+            <li class="nav-footer-title">Company Info</li>
+            <li class="nav-footer-item">About Us</li>
+            <li class="nav-footer-item">Our Partners</li>
+            <li class="nav-footer-item">Blog</li>
          </ul>
         </nav>
       </footer>
