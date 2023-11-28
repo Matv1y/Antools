@@ -11,6 +11,8 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -157,6 +159,9 @@ a {
   line-height: 30px; /* 166.667% */
   padding-bottom: 90px;
 }
+.tools-list-tc-container{
+  padding-left: 30px;
+}
 .tools-title-list {
   display: flex;
   flex-direction: column;
@@ -285,6 +290,11 @@ a {
   display: flex;
   margin-bottom: 200px;
 }
+.newcomer-title-list{
+  width: 427px;
+  height: 300px;
+  flex-shrink: 0;
+}
 .Newcomer-title{
   color: var(--title-font-color);
 font-size: 48px;
@@ -292,7 +302,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 130%; /* 62.4px */
 padding-bottom: 30px;
-padding-right: 200px;
+padding-top: 33px;
 }
 .Newcomer-text{
   color: var(--general-font-color);
@@ -316,6 +326,7 @@ height: 58px;
 .Newcomer-list{
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .section-response{
   display: flex;
@@ -357,6 +368,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 166.667% */
 padding-bottom: 100px;
+text-align: center;
 }
 .join-list-input{
   color: #FFFFFF61;
@@ -396,6 +408,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding-bottom: 10px;
 }
 .footer-Copyright-logo{
   color: var(--title-font-color);
@@ -415,6 +428,9 @@ line-height: normal;
 .nav-footer{
   display: flex;
   justify-content: space-between;
+  gap: 115px;
+  margin-left: 108px;
+  margin-right: 233px;
 }
 .nav-footer-list{
   padding-top: 70px;
@@ -428,7 +444,4 @@ line-height: normal;
 }
 .nav-footer-title{
   padding-bottom: 20px;
-}
-.nav-footer-item{
-  padding-bottom: 10px;
 }
