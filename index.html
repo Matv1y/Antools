@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
@@ -14,7 +15,7 @@
         <div class="container">
       <nav class="header-nav">
         <ul class="header-title-container">
-      <li class="logo"> <img src="./img/Group 159.png" alt="" class="logo-img"> antools.</li>
+      <li class="logo"><img src="./img/logo.png" alt="" class="logo-img">antools.</li>
     </ul>
         <ul class="header-nav-list">
           <li class="nav-list-item">Home</li>
@@ -35,18 +36,18 @@
           <ul class="section-hero-list">
             <li>
             <h3 class="section-hero-title">
-              Awesome tools for <br/>
+              Awesome tools for
               Designer & Developer<span class="hero-title-point">.</span>
             </h3>
             <p class="section-hero-text">
-              Antool is a web collection of information on paid or <br/>free Design
+              Antool is a web collection of information on paid or free Design
               and Development tools
             </p>
           </ul>
             <div class="hero-input-container">
             <img src="./img/search.png" class="hero-img">
             <input type="text" placeholder="find more than 430+ tools..."  class="section-hero-input"/>
-            <button class="section-hero-btn">Search</button>
+            <button type="submit" class="section-hero-btn">Search</button>
           </div>
             <ul class="section-hero-link-list">
               <li class="section-hero-link-item"><img src="./img/bx_bxl-facebook.png" alt="" class="section-hero-img"></li>
@@ -60,7 +61,7 @@
           <ul class="tools-title-list">
         <li class="tools-title-item">Most Popular Tools</li>
         <li class="tools-text-item">
-          Tools for the best Designers and Developers<br/>
+          Tools for the best Designers and Developers<br>
           most popularly used in the world
         </li>
       </ul>
@@ -173,8 +174,8 @@
       </div>
       </div>
       </section>
-      <div class="container">
       <section class="section-trusted">
+        <div class="container">
         <h3 class="trusted-title">Trusted more than 150+ brand</h3>
         <ul class="trusted-list">
           <li class="trusted-list-item"><img src="./img/logos_microsoft.png" alt="" class="trusted-list-item-img"></li>
@@ -182,8 +183,8 @@
           <li class="trusted-list-item"><img src="./img/logos_slack.png" alt="" class="trusted-list-item-img"></li>
           <li class="trusted-list-item"><img src="./img/logos_wordpress.png" alt="" class="trusted-list-item-img"></li>
         </ul>
+      </div>
       </section>
-    </div>
       <div class="container">
       <section class="section-newcomer">
         <ul class="newcomer-title-list">
@@ -267,7 +268,9 @@
       </section>
     </div>
       <section class="section-response">
-        <img src="./img/david-suarez-4a1nNlrS5ZI-unsplash.png" alt=""  class="section-response-img"/>
+        <div class="container">
+        <div class="response-box">
+        <img src="./img/david.png" alt=""  class="section-response-img"/>
         <p class="section-response-text">
           Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
           reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
@@ -275,6 +278,8 @@
           consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
           Occaecat aute officia excepteur non laboris id qui ad.
         </p>
+      </div>
+      </div>
       </section>
       <section class="section-join">
       <ul class="join-list">
@@ -287,33 +292,34 @@
       </ul>
     </section>
       <footer class="footer">
-        <nav class="nav-footer">        
+        <i class="footer-line"></i>
+        <address class="nav-footer">        
             <ul class="nav-footer-list">
             <div class="footer-list-logo">
             <li class="nav-footer-Copyright-item"><img src="./img/orange-logo.png" alt="" class="footer-Copyright-img"></li>
             <li class="nav-footer-Copyright-item"><h3 class="footer-Copyright-logo">antools.</h3></li>
           </div>
             <li class="nav-footer-Copyright-item"><h3 class="footer-Copyright-title">Copyright 2021. Antools</h3></li>
-            <li class="nav-footer-item">Antool is a web collection of <br>information on paid or free Design <br> and Development tools</li>
+            <li class="nav-footer-Copyright-text">Antool is a web collection of <br>information on paid or free Design <br> and Development tools</li>
          </ul>
          <ul class="nav-footer-list">
             <li class="nav-footer-title">Contact Us</li>
-            <li class="nav-footer-item">+621987463</li>
-            <li class="nav-footer-item">M Building, No.10 A</li>
-            <li class="nav-footer-item">antools@awesome.com</li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">+621987463</a></li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">M Building, No.10 A</a></li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">antools@awesome.com</a></li>
          </ul>
          <ul class="nav-footer-list">
             <li class="nav-footer-title">Categoies</li>
-            <li class="nav-footer-item">Design</li>
-            <li class="nav-footer-item">Development</li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">Design</a></li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">Development</a></li>
          </ul>
          <ul class="nav-footer-list">
             <li class="nav-footer-title">Company Info</li>
-            <li class="nav-footer-item">About Us</li>
-            <li class="nav-footer-item">Our Partners</li>
-            <li class="nav-footer-item">Blog</li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">About Us</a></li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">Our Partners</a></li>
+            <li class="nav-footer-item"><a href="#" class="footer-link">Blog</a></li>
          </ul>
-        </nav>
+        </address>
       </footer>
     </body>
   </body>
