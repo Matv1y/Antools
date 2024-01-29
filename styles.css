@@ -63,6 +63,10 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: .3s;
+}
+.nav-list-item:hover{
+  color: var(--hover-color);
 }
 .nav-list-item:nth-child(2):after{
   content: '';
